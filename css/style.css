@@ -1,0 +1,105 @@
+
+/*
+** Set background color for the header
+*/
+.jumbotron {	
+	background-color: #428bca
+}
+
+/*
+** Set Foreground color for the h1 header, and h2 header
+*/
+.jumbotron h1, h2 {
+	color:white;
+}
+
+/*
+** Add border to the container element
+*/
+.container {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #428bca;
+    border-width: 5px;
+    padding: 10px;
+}
+
+/*
+** Set font for the paragraph, h1 header, and h2 header
+*/
+p, h1, h2 {
+	font-family: 'Roboto Slab', serif;
+}
+
+/*
+** Override the default color for the twitter bootstrap panel-heading class
+** Just testing here!!!
+*/
+.panel-default > .panel-heading {
+    background-color: #428bca
+}
+
+/*
+** Set font style for the band bio
+** Just testing here!!!
+*/
+p.styledText {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+** Set width and height of the Band images
+*/
+img {    
+    border-radius: 5px;
+    width: 100%;
+	height: 100%;
+}
+
+/*
+** Control the Band images slide show
+*/
+#slideshow { 
+    position: relative; 
+    width: 525px; 
+    height: 520px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+}
+
+/*
+** Add vertical scroll bar to the discography table
+*/
+#table-scroll {
+  height:100px;
+  overflow:auto;  
+  margin-top:1px;
+}
+
+/*
+** Add line borders to the discography table header and table elements
+*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/*
+** Add a bit spacing (padding) to the discography table header and table elements
+*/
+th, td {
+    padding: 1px;
+}
+
+/*
+** Left justify the text of the discography table header and table elements
+*/
+th {
+    text-align: left;
+}
