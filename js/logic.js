@@ -27,7 +27,7 @@ function onYouTubeIframeAPIReady() {
 	//console.log("onYouTubeIframeAPIReady: fired!!!");
 	fanpageshared.video = new YT.Player('player', {
 		height: '385',
-		width: '520',
+		width: '100%',
 		videoId: 'MgaETQh4uXg',
 		playerVars: {
 			'autoplay': 0,
